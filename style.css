@@ -1,0 +1,285 @@
+@font-face {
+    font-family: japan;
+    src: url(/38d41072aa88a50711d4d50dd0d50f6b.woff);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: oswald;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin-bottom: -80px;
+
+
+}
+section{
+    height: 100%;
+    width:100%;
+   position:relative;
+}
+
+nav{
+    padding:20px 30px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.part2{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:30px;
+
+}
+nav h1{
+    font-size:40px;
+    font-weight: bold;
+    align-items: center;
+    display:flex;
+
+}
+nav h1 i{
+    margin-right:8px;
+    font-size:45px;
+    rotate:45deg;
+    display:inline-block
+}
+nav h4{
+    font-size:20px;
+    font-weight: 400;
+    cursor:pointer;
+
+}
+nav button{
+    padding:6px 10px ;
+    font-size :25px;
+    background-color:transparent;
+    border-radius: 10px;
+    font-weight: 600;; 
+    border:3px solid #000;
+    cursor:pointer;
+}
+nav button:hover{
+    background-color:black;
+    color:white;
+    border:3px solid black;
+    transition:0.4s ease-in-out;
+    padding:5px 5px;
+
+
+}
+
+.center{
+    height: 80%;
+    width: 100%;
+    display: flex;
+   
+}
+.center-part1{
+    padding:30px; 
+    height: 100%;
+    width:44%;
+}
+.center-part1 h1{
+    line-height: 1.2;
+    font-size:50px;
+    font-family: japan;
+    
+}
+.center-part1 p{
+    margin-top:20px;
+
+    font-size:20px;
+    width:95%;
+
+}
+.center-part1 button{
+    background-color:black;
+    color:white;
+    border-radius:10px;
+    padding:10px 20px;
+    font-weight: 600;
+    margin-top:20px;
+    margin-bottom:25px;
+    cursor:pointer;
+
+    border:none;
+    ;
+
+}
+
+.center-part1 button:hover{
+    color:black;
+    background-color:white;
+    border:#000 solid 2px;
+    transition:0.4s ease-out;
+
+}
+.center-part2{
+    height: 100%;
+    width:56%;
+    position:relative;
+}
+.center-part2 img{
+    position:absolute;
+    height:100%;
+    right:5%
+}
+
+.section1bottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 60px;
+}
+.section1bottom img{
+    height: 60px;
+}
+.section2{
+    margin-top:7%;
+}
+.section2 .services{
+    padding:20px 60px;
+    gap:20px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section2 h3{
+    background-color: #9AE975;
+    font-size:60px;
+    padding:8px 10px;
+    border-radius:3px;
+    font-weight: 500;
+    font-family: japan;
+}
+.services p{
+    width: 55%;
+    font-size:20px;
+}
+.container{
+    height:min-content;
+    width: 100%;
+    padding:40px 60px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elem{
+    display: flex;
+    height: 270px;
+    width:46%;
+    border:3px solid black;
+    flex-shrink: 0;
+    border-radius:30px;
+    margin:20px;
+    box-shadow:0px 15px 0px black;
+    padding:30px;
+
+}
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction:column;
+}
+.elem-part2{
+    height: 100%;
+    width:50%;
+    
+}
+.elem-part2 img{
+    height:100%;
+}
+.elem-part1 h2{
+    font-size :29px;
+    font-weight: 500;
+    background-color: #9AE975;
+    font-family:japan;
+    padding:2px  10px;
+    border-radius: 10px;
+}
+.elem-part1 h4{
+    display:flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.black{
+    background-color: black;
+    color:white;
+    box-shadow:0px 15px 0px white;
+}
+.black h2{
+    background-color:White;
+    color:black;
+}
+/* footer css */
+
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+  
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+  
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+  
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+  
+    .footer .row a:hover{
+    color:#fff;
+    }
+  
+    .footer .row ul{
+    width:100%;
+    }
+  
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+  
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+  
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+    /* footer css ending  */
